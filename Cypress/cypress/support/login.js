@@ -6,7 +6,7 @@ import loginData from '../fixtures/login.json'
 
     // Fill in the login form
     cy.get('#email').type('Pradeep.K@example.com');
-    cy.get('#pass').type('Password123');
+    cy.get('#pass').type('Cypress123');
 
     // Submit the form
     cy.get('#send2').click();
