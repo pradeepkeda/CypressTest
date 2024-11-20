@@ -4,7 +4,7 @@ module.exports = defineConfig({
   projectId: "ocnw76",
   e2e: {
 
-    baseUrl: "https://naveenautomationlabs.com/opencart/index.php?route=account/login",
+    baseUrl: "https://magento.softwaretestingboard.com/",
     setupNodeEvents(on, config) {
 
       /*  on('before:browser:launch', (browser = {}, launchOptions) => {
